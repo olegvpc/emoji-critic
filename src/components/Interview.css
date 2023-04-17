@@ -1,0 +1,41 @@
+.interview__iframes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+    padding: 0;
+    /*border: 1px black solid;*/
+}
+.interview__frame-container {
+    width: 100%;
+    max-height: 400px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 7px 7px 10px black;
+    /*border: 1px red solid;*/
+}
+.interview__iframe-video {
+    width: 560px;
+    margin-right: 25px;
+    box-shadow: 5px 5px 5px lightseagreen;
+}
+.interview__frame-about {
+    margin-right: auto;
+    /*flex-grow: 1;*/
+    /*max-width: 600px;*/
+    /*margin: 10px 20px;*/
+    /*border: 1px green solid;*/
+}
+.interview__frame-about_wrap {
+    max-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 1px red solid; */
+}
